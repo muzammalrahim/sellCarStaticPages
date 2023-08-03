@@ -1,0 +1,203 @@
+.app-book-now-sec{
+  background-image: url("../../assets/top-banner-new.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-top: 90px;
+  padding-bottom: 160px;
+  background-color: rgba(0, 0, 0, 0.247);
+  overflow: hidden;
+  background-position: 0px -182px;
+}
+
+.app-book-now-text h2{
+  color: #1EAD5E;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 11px;
+}
+
+.app-book-now-text h1{
+  color: #FFFFFF;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65.359px;
+}
+
+.app-book-now-text b{
+  color: #1EAD5E;
+}
+
+.app-book-now-text p{
+  color: #dfdfdf;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.app-book-now-text-btn button{
+  border-radius: 7px;
+  background: #1EAD5E;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  padding: 12px;
+  width: 40%;
+}
+
+/* This css is for the right form of the page */
+
+.top-heading{
+  margin-top: 26.79px;
+  margin-bottom: 58.21px;
+}
+
+.top-heading h1{
+  color: #1EAD5E;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.388px;
+}
+
+.find-sec-right-form {
+  padding: 15px 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 5%;
+  z-index: 99;
+  position: relative;
+}
+
+.find-sec-right-form p {
+  color: #181818;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* This code is for the input forms  */
+
+.find-sec-right-form .form-select {
+  margin-top: 24px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+  color: #000;
+  font-size: 12.878px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.696px; /* 160.714% */
+  padding: 10px;
+}
+
+/* This is the end for the input forms  */
+
+.find-sec-right button {
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10px;
+  background: #1EAD5E;
+  margin-top: 47px;
+  margin-bottom: 60.4px;
+  color: #FFF;
+  padding: 18px;
+  border: none;
+  text-align: center;
+  font-size: 14.717px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.717px; /* 100% */
+  transition: 0.5s;
+}
+
+.find-sec-right button:hover {
+  background-color: #2f774c;
+}
+
+/* This code is for the car */
+
+.car-holder{
+  position: relative;
+}
+
+.car-holder img{
+  position: absolute;
+  margin-left: -20%;
+  margin-top: -400px;
+}
+
+/* These are all the media qures for the right form sec */
+@media screen and (max-width: 1440px) {
+  .app-book-now-sec{
+    background-position: 0px -155px;
+    padding-top: 30.12px;
+   padding-bottom: 58.07px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .find-inner {
+    background-position: -50px 80%;
+    background-size: 55%;
+  }
+  .car-holder img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flower-holder img {
+    display: none;
+  }
+  .find-inner {
+    background: #2c9e5a;
+  }
+  .res-cols {
+    width: 100%;
+  }
+  .find-sec-right {
+    padding-top: 0;
+  }
+  .find-sec-right{
+    margin-top: 40px;
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .app-book-now-text h1 {
+    text-align: center;
+    color: #f1efef;
+  }
+
+  .app-book-now-text p {
+    text-align: center;
+  }
+
+  .app-book-now-text h2 {
+    text-align: center;
+  }
+
+  .app-book-now-text-btn a{
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .app-book-now-text h1{
+    font-size: 32px;
+    line-height: normal;
+  }
+}

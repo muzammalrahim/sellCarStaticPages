@@ -1,0 +1,94 @@
+.world-largest{
+    background: url("../../assets/car-bg.png") no-repeat;
+    background-position: left;
+    background-color: #F9F9F9;
+}
+
+.world-largest-text{ margin-top: 5%; margin-bottom: 5%;}
+
+.world-largest-img img{
+    width: 100%;
+}
+
+/* @media screen and (max-width: 768px) {
+    .world-largest-img img {
+      display: none;
+    }
+  } */
+
+.world-largest-text h1{
+    color: #000000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.world-largest-text b{
+    color: #1EAD5E;
+}
+
+.world-largest-text p{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.5%; /* 34.3px */
+}
+
+.world-largest-text{
+    margin-top: 30px;
+}
+
+.world-largest-text h2{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.world-largest-text h2 img{
+    margin-right: 16.1px;
+}
+
+.world-largest-text-btn button{
+    margin-top: 20px;
+    background-color: #1EAD5E;
+    padding: 11.69px;
+    width: 200px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.world-largest-text-btn button:hover{
+    background-color: #0f552f;
+}
+
+
+@media screen and (max-width: 1179px) {
+    .world-largest{
+        background-size: contain;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .world-largest {
+      background: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .world-largest-text h1{
+        font-size: 30px;
+    }
+}
+    

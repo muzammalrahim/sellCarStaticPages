@@ -1,0 +1,127 @@
+.sell-your-car-sec{
+    background: #F9F9F9;
+    padding-top: 101.69px;
+    padding-bottom: 104.06px;
+}
+
+.sell-your-car-sec-top h1{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 70px;    
+}
+
+.step-holder-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* @media screen and (max-width: 767px) {
+    .step-holder-text {
+    }
+  } */
+
+  .size{
+    width: 100%;
+  }
+
+  .step-holder-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ins-div h1{
+    color: #000;
+    font-size: 30px;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.ins-div p{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.step-holder-text-btn button{
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    border-radius: 34px;
+    border: none;
+    background: #1EAD5E;
+    padding: 8px;
+    width: 150px;
+    transition: 0.5s;    
+}
+
+.step-holder-text-btn button:hover{
+    background-color: #177943;
+}
+
+.step-holder-text img{
+    width: 100%;
+}
+
+.point-logo-holder img{
+    width: 60%;
+    margin-top: 38px;
+}
+.ins-div{
+    position: relative;
+}
+.insWay-left{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.doted-line{
+    position: absolute;
+    top: -150px;
+    left: 17px;
+    height: 200px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .ins-img-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .doted-line{
+        display: none;
+    }
+    .insWay-left {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .insText-div{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sell-your-car-sec-top h1{
+        font-size: 30px;
+    }
+    
+    .world-largest-text h1{
+            font-size: 30px;
+    }
+}

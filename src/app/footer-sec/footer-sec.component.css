@@ -1,0 +1,173 @@
+footer{
+    background: #F9F9F9;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+      margin-top: 1px;
+    }
+  }
+
+.read-more-mob{
+    display: none;
+}
+.footer-bg{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin: 200px 0 0 0;
+}
+.container-footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-contents{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-circle{
+    width: 192px;
+    height: 192px;
+    background: #1EAD5E;
+    border-radius: 192px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.footer-inner-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: white;
+    position: absolute;
+    top: 47px;
+    left: 45px;
+}
+
+.subcription-box{
+    border-radius: 12px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.subcription-box button{
+    height: 45px;
+    padding: 0 64px;
+    background: #1EAD5E;
+    box-shadow: 0px 5px 40px rgb(129 172 42 / 7%);
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+input[type=text] {
+    border: none;
+    width: 50%;
+}
+
+.footer-subscription{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.footer-subscription h2{
+font-size: 30px;
+}
+
+.footer-phone{
+    margin-top: -115px;
+}
+
+.footer-icons{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-social {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: #1EAD5E;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.icons-social:last-child{
+    margin-right: 0px;
+}
+
+.icons-social img{
+    padding:8px;
+}
+
+.flex{
+    display: flex;
+}
+
+.footer-subscription span{
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    /* .read-more-mob{
+        display: block;
+        text-align: center;
+        margin: 15px 0 30px 0;
+    } */
+    .footer-phone img{
+        display: none;
+    }
+    .footer-circle{
+        display: none;
+    }
+    .footer-subscription h2{
+        font-size: 25px;
+    }
+    .footer-contents {
+        grid-template-columns: auto;
+    }
+    .footer-icons{
+        display: table;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-subscription{
+        margin-bottom: 20px;
+    }
+    .copy-right{
+        display: table-footer-group;
+    }
+    .f-s-icon{
+       justify-content: center;
+       padding-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 479px) {
+
+    .subcription-box button {
+        height: 40px;
+        padding: 0 35px;
+        margin-top: 4px;
+        position: relative;
+        left: 5px;
+    }
+    .footer-bg{
+        background: url("../../assets/fm-bg.webp") no-repeat !important;
+        margin: 0;
+        background-size: cover !important;
+    }
+    .footer-subscription h2{
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.app-why-our-car-sec{
+    background: #F9F9F9;
+    padding-top: 86px;
+    padding-bottom: 136px;
+}
+
+.app-about-us-sec-left-top h1{
+    color: #1EAD5E;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+
+.app-about-us-sec-left-top p{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 47px;
+}
+
+.app-about-us-sec-right{
+    margin-top: 7%;
+  }
+
+  .app-about-us-sec-right img{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+@media screen and (max-width: 767px) {
+    .app-about-us-sec-left h2 {
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .app-about-us-sec-left-top h1 {
+        font-size: 30px;
+    }
+    .app-about-us-sec-left h2 img{
+      width: 100%;
+    }
+  }
+  

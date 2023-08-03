@@ -1,0 +1,146 @@
+<div class="top-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>See what they say about us</h1>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="container">
+<!-- You can now use your library component in app.component.html -->
+<ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig" 
+(init)="slickInit($event)"
+(breakpoint)="breakpoint($event)"
+(afterChange)="afterChange($event)"
+(beforeChange)="beforeChange($event)">
+<!-- <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+<img src="{{ slide.img }}" alt="" width="100%">
+</div> -->
+
+<div ngxSlickItem  class="slide">
+  <div class="slid-inner">
+    <div class="graphic-holder">
+      <img src="assets/graphic comma.svg" alt="">
+    </div>
+    <div class="slide-para">
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur  adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa.</p>
+    </div>
+    <div class="slide-details">
+      <img src="assets/james.png" alt="">
+      <div class="slide-details-text">
+        <h1>Cody Fisher</h1>
+        <p>Director</p>
+      </div>
+    </div>
+    <div class="star-holder">
+      <img src="assets/star rating.png" alt="">
+    </div>
+  </div>
+  
+</div>
+
+<div ngxSlickItem  class="slide">
+  <div class="slid-inner">
+    <div class="graphic-holder">
+      <img src="assets/graphic comma.svg" alt="">
+    </div>
+    <div class="slide-para">
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur  adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa.</p>
+    </div>
+    <div class="slide-details">
+      <img src="assets/james.png" alt="">
+      <div class="slide-details-text">
+        <h1>Cody Fisher</h1>
+        <p>Director</p>
+      </div>
+    </div>
+    <div class="star-holder">
+      <img src="assets/star rating.png" alt="">
+    </div>
+  </div>
+  
+</div>
+
+<div ngxSlickItem  class="slide">
+  <div class="slid-inner">
+    <div class="graphic-holder">
+      <img src="assets/graphic comma.svg" alt="">
+    </div>
+    <div class="slide-para">
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur  adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa.</p>
+    </div>
+    <div class="slide-details">
+      <img src="assets/james.png" alt="">
+      <div class="slide-details-text">
+        <h1>Cody Fisher</h1>
+        <p>Director</p>
+      </div>
+    </div>
+    <div class="star-holder">
+      <img src="assets/star rating.png" alt="">
+    </div>
+  </div>
+  
+</div>
+
+<div ngxSlickItem  class="slide">
+  <div class="slid-inner">
+    <div class="graphic-holder">
+      <img src="assets/graphic comma.svg" alt="">
+    </div>
+    <div class="slide-para">
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur  adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa.</p>
+    </div>
+    <div class="slide-details">
+      <img src="assets/james.png" alt="">
+      <div class="slide-details-text">
+        <h1>Cody Fisher</h1>
+        <p>Director</p>
+      </div>
+    </div>
+    <div class="star-holder">
+      <img src="assets/star rating.png" alt="">
+    </div>
+  </div>
+  
+</div>
+
+<div ngxSlickItem  class="slide">
+  <div class="slid-inner">
+    <div class="graphic-holder">
+      <img src="assets/graphic comma.svg" alt="">
+    </div>
+    <div class="slide-para">
+      <p>Lorem ipsum dolor sit amet, 
+        consectetur  adipisicing elit, sed eius to mod tempor incididunt ut labore et dolore magna aliqua. Ut enims ad minim veniam. Aenean massa. Cum sociis natoque penatibus et magnis dis partu rient to montes.Aene an massa.</p>
+    </div>
+    <div class="slide-details">
+      <img src="assets/james.png" alt="">
+      <div class="slide-details-text">
+        <h1>Cody Fisher</h1>
+        <p>Director</p>
+      </div>
+    </div>
+    <div class="star-holder">
+      <img src="assets/star rating.png" alt="">
+    </div>
+  </div>
+  
+</div>
+
+</ngx-slick-carousel>
+
+<!-- <button (click)="addSlide()">Add</button>
+<button (click)="removeSlide()">Remove</button>
+<button (click)="slickModal.slickGoTo(2)">slickGoto 2</button>
+<button (click)="slickModal.unslick()">unslick</button> -->
+  </div>
+  

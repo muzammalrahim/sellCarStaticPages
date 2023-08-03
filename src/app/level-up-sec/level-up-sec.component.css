@@ -1,0 +1,55 @@
+.level-up-bars-holder{
+    border: 80px solid #1EAD5E;
+    background: #1EAD5E;
+}
+
+.level-up-box{
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(36, 45, 60, 0.20);
+    width: 99.5%;
+    padding-top: 15.79px;
+    padding-bottom: 20.07px;
+    margin-right: 220.07px;
+    transition: 0.5s;
+    height: 210px;
+}
+
+.level-up-box:hover{
+    background-color: #d8d8d8;
+}
+
+.level-up-box h2{
+    text-align: center;
+}
+
+.level-up-box-text h1{
+    color: #2A323C;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.level-up-box-text hr{
+    color: #737D8C;
+    width: 20%;
+    margin-left: 40%;
+    height: 4px;
+}
+
+.level-up-box-text p{
+    color: #737D8C;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+    .level-up-box {
+      margin-bottom: 20px;
+    }
+  }

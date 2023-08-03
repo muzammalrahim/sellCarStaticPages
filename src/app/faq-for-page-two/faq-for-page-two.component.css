@@ -1,0 +1,87 @@
+body{
+    background: #F9F9F9;
+}
+
+.accordion-button{
+    font-size: 22px;
+    font-style: normal; 
+    font-weight: 700;
+    padding: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.accordion-body{
+    padding: 50px;
+    color: #5A5365;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.accordion-button img{
+    margin-right: 52px;
+}
+
+.accordion-item{
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    box-shadow: 0px 3px 45px 0px rgba(0, 0, 0, 0.07);
+}
+
+.accordion-item:hover .accordion-header button{
+    background-color: rgba(30, 173, 94, 4%);
+    color: #1EAD5E;
+}
+
+.accordion-item:hover .accordion-body{
+    background-color: #C0E5D1;
+}
+
+.accordion-button {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 50px;
+    background-color: #fff ;
+    color: #000;
+}
+
+.accordion-button:hover{
+    background-color: #C0E5D1 !important;
+}
+
+.accordion-button::after{
+    background-image: url("../../assets/crosss.svg");
+    width: 100px;
+    transform: rotate(-180deg);
+    background-size: 100% 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../../assets/plus.svg");
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .accordion-button{
+        font-size: 13px;
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .num-img img{
+        width: 40%;
+    }
+
+    .accordion-button img{
+        margin-right: 5px;
+        width: 50%;
+    }
+  }
